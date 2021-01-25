@@ -11,14 +11,16 @@ sections:
   label: Post
   create: documents
   match: "**/*"
-  new_doc_ext: '20191203072044'
+  new_doc_ext: ''
   templates:
   - post
 - type: heading
   label: Portfolio
-- type: document
-  path: exampleSite/content/portfolio/**/*
+- type: directory
+  path: exampleSite/content/portfolio
   label: Portfolio
+  create: documents
+  match: "**/*"
 - type: heading
   label: Configuration
 - type: directory
