@@ -1,44 +1,99 @@
 <header class="navigation fixed-top">
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="{{ site.BaseURL }}">
-      {{ if site.Params.logo }}
-      <img src="{{ site.Params.logo | absURL }}" alt="{{site.Title}}">
-      {{ else }}
-      <h3 class="text-white font-tertiary">{{site.Title}}</h3>
-      {{ end }}
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="{{ site.BaseURL }}">
+            <div class="pavi-signature">
+                <svg width="841.995" height="595.35" viewBox="0 0 841.995 595.35">
+                    <path stroke="#FFFFFF" stroke-width="8.32"
+                          d="M270.887+202.46C269.363+199.846+265.689+199.938+264.168+202.591C216.403+282.679+166.477+364.477+141.622+455.08C139.263+458.7+142.921+461.372+140.702+456.672C119.695+346.199+198.067+213.08+307.407+185.911C311.737+185.623+316.639+187.542+318.18+191.904C314.029+246.891+254.463+278.303+206.782+292.325C204.459+287.689+201.503+286.348+203.589+293.62C253.513+286.02+314.068+248.552+321.267+193.473C320.621+188.652+316.668+184.613+311.914+183.709C197.511+204.222+115.455+346.546+138.706+458.891C140.5+464.438+144.531+459.689+144.185+455.92C170.893+366.433+218.156+275.454+270.887+202.46"
+                          stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+                    <path stroke="#FFFFFF" stroke-width="8.32"
+                          d="M376.05+205.285C378.847+201.939+380.916+194.529+374.312+194.445C339.418+209.332+273.351+255.982+297.398+295.203C336.142+280.802+364.62+230.453+385.123+202.196C366.144+224.421+320.994+263.221+343.074+290.629C385.589+267.577+405.764+207.968+457.343+197.616C430.964+214.513+386.582+252.259+403.589+287.656C448.477+270.49+474.948+208.175+528.903+201.673C506.912+211.127+473.028+249.136+476.872+279.121C521.217+282.72+568.622+253.871+614.032+270.945C614.208+271.348+610.977+272.894+609.843+272.978C486.276+284.096+358.77+309.305+255.017+381.093C251.654+382.829+247.27+390.653+253.489+391.334C329.413+372.566+403.744+345.09+482.205+336.809C483.669+336.471+494.456+333.487+487.94+333.967C407.53+340.723+331.407+369.192+253.892+388.753C349.288+310.756+488.307+287.965+611.52+275.293C614.19+274.835+618.719+271.911+615.893+269.002C570.795+251.142+522.921+278.353+478.451+276.945C478.165+244.537+511.741+217.455+530.605+199.055C475.973+203.245+447.689+266.437+403.96+284.653C390.23+245.445+443.348+217.514+457.806+194.967C406.325+204.593+384.56+261.448+344.154+287.966C324.194+260.521+376.173+223.823+385.334+201.986C355.555+230.751+337.238+276.726+297.782+292.458C281.479+253.529+340.824+212.933+374.038+197.137C379.139+196.47+376.838+202.605+376.05+205.285"
+                          stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+                    <path stroke="#FFFFFF" stroke-width="8.32"
+                          d="M538.38+165.702C544.088+150.5+516.134+172.835+534.938+177.523C543.681+181.134+552.585+165.599+540.711+164.407C547.205+168.09+540.15+180.264+532.074+172.495C528.091+167.829+538.584+158.254+538.38+165.702"
+                          stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse text-center" id="navigation">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.BaseURL }}">{{ with site.Params.Home }} {{ . }} {{ end }}</a>
-        </li>
-        {{ $current := . }}
-        {{ range site.Menus.main }}
-        {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
-        {{ $active = or $active (eq .Name $current.Title) }}
-        {{ if .HasChildren }}
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            {{ .Name }}
-          </a>
-          <div class="dropdown-menu" >
-            {{ range .Children }}
-            <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a>
-            {{ end }}
-          </div>
-        </li>
-        {{ else }}
-        <li class="nav-item {{ if $active }}active{{ end }}">
-          <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
-        </li>
-        {{ end }}
-        {{ end }}
-      </ul>
-    </div>
-  </nav>
+        <div class="collapse navbar-collapse text-center" id="navigation">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.BaseURL }}">{{ with site.Params.Home }} {{ . }} {{ end }}</a>
+                </li>
+                {{ $current := . }}
+                {{ range site.Menus.main }}
+                {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
+                {{ $active = or $active (eq .Name $current.Title) }}
+                {{ if .HasChildren }}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{ .Name }}
+                    </a>
+                    <div class="dropdown-menu">
+                        {{ range .Children }}
+                        <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a>
+                        {{ end }}
+                    </div>
+                </li>
+                {{ else }}
+                <li class="nav-item {{ if $active }}active{{ end }}">
+                    <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+    </nav>
 </header>
+
+<script type="text/javascript">
+  (function () {
+    window.signature = {
+      initialize: function () {
+        return $('.pavi-signature svg').each(function () {
+          let delay, i, len, length, path, paths, previousStrokeLength, results, speed;
+          paths = $('path, circle, rect', this);
+          delay = 0;
+          results = [];
+          for (i = 0, len = paths.length; i < len; i++) {
+            path = paths[i];
+            length = path.getTotalLength();
+            previousStrokeLength = speed || 0;
+            speed = length < 100 ? 20 : Math.floor(length);
+            delay += previousStrokeLength + 100;
+            results.push($(path).css('transition', 'none').attr('data-length', length).attr('data-speed', speed).attr('data-delay', delay).attr('stroke-dashoffset', length).attr('stroke-dasharray', length + ',' + length));
+          }
+          return results;
+        });
+      },
+      animate: function () {
+        return $('.pavi-signature svg').each(function () {
+          let delay, i, len, length, path, paths, results, speed;
+          paths = $('path, circle, rect', this);
+          results = [];
+          for (i = 0, len = paths.length; i < len; i++) {
+            path = paths[i];
+            length = $(path).attr('data-length');
+            speed = $(path).attr('data-speed');
+            delay = $(path).attr('data-delay');
+            results.push($(path).css('transition', 'stroke-dashoffset ' + speed + 'ms ' + delay + 'ms linear').attr('stroke-dashoffset', '0'));
+          }
+          return results;
+        });
+      }
+    };
+
+    $(document).ready(function () {
+      return window.signature.initialize();
+    });
+
+    $(window).load(function () {
+      return window.signature.animate();
+    });
+  }).call(this);
+</script>
