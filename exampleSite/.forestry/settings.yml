@@ -24,12 +24,6 @@ sections:
 - type: heading
   label: Configuration
 - type: directory
-  path: exampleSite/static/images
-  label: Images
-  create: all
-  match: "**/*"
-  new_doc_ext: ".png"
-- type: directory
   path: exampleSite
   label: Configuration
   create: all
