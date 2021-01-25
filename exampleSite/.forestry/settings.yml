@@ -11,7 +11,7 @@ sections:
   label: Post
   create: documents
   match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: app
   templates:
   - post
 - type: heading
@@ -23,6 +23,12 @@ sections:
   match: "**/*"
 - type: heading
   label: Configuration
+- type: directory
+  path: exampleSite/static/images
+  label: Images
+  create: all
+  match: "**/*"
+  new_doc_ext: ".png"
 - type: directory
   path: exampleSite
   label: Configuration
