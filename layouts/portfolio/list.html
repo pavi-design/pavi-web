@@ -10,8 +10,9 @@
             <div class="col-lg-4 col-6 mb-4 shuffle-item"
                  data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
                 <div class="position-relative rounded hover-wrapper">
+
+                    <div>{{ Params.categories }}</div>
                     <img src="{{.Params.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-                    {{ Params.categories }}
                     <div class="hover-overlay">
                         <div class="hover-content">
                             <a class="btn btn-light btn-sm" href="{{ .Permalink }}">view project</a>
