@@ -876,24 +876,6 @@ blockquote {
     font-weight: 700
 }
 
-.social-icons a {
-    /*height: 100px;*/
-    /*width: 100px;*/
-    /*line-height: 100px;*/
-    /*border-radius: 50%;*/
-    /*display: block;*/
-    /*box-shadow:  0 18px 39.1px 6.9px rgba(224,241,255,.34);*/
-    /*color: #fff;*/
-    /*background-color: var(--primary-color);*/
-    /*font-size: 20px;*/
-    /*text-align: center;*/
-}
-
-.social-icons a i {
-    font-size: 20px;
-    color: var(--primary-color);
-}
-
 .project-meta {
     display: flex;
     align-items: center;
@@ -919,4 +901,15 @@ blockquote {
 
 .project-meta p {
     margin-bottom: 0;
+}
+
+/* custom */
+
+.list-inline-item:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.social-icons a i {
+    font-size: 20px;
+    color: var(--primary-color);
 }
