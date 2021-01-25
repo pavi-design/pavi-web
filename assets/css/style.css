@@ -909,12 +909,8 @@ blockquote {
     margin-right: 3rem;
 }
 
-.social-icons {
-    padding-top: 15px;
-}
-
 .social-icons i {
-    font-size: 20px;
+    font-size: 25px;
     color: #999;
 }
 
