@@ -910,6 +910,6 @@ blockquote {
 }
 
 .social-icons a i {
-    font-size: 30px;
-    color: var(--primary-color);
+    font-size: 15px;
+    color: #999 !important;
 }
