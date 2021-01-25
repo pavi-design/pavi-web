@@ -5,9 +5,9 @@
 <!-- portfolio -->
 <section class="section">
     <div class="container">
-        <div>{{ .Params.title }}</div>
         <div class="row shuffle-wrapper">
             {{ range .Data.Pages }}
+            <div>{{ .Params.title }}</div>
             <div class="col-lg-4 col-6 mb-4 shuffle-item"
                  data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
                 <div class="position-relative rounded hover-wrapper">
