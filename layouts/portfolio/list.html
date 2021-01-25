@@ -5,6 +5,7 @@
 <!-- portfolio -->
 <section class="section">
     <div class="container">
+        <div>{{ .Params.title }}</div>
         <div class="row shuffle-wrapper">
             {{ range .Data.Pages }}
             <div class="col-lg-4 col-6 mb-4 shuffle-item"
@@ -12,7 +13,7 @@
                 <div class="position-relative rounded hover-wrapper">
 
                     <!-- <div>{{ .PublishDate.Format "Jan 02, 2006" }}</div>-->
-                    <div>{{ .Params.title }}</div>
+                    <!-- <div>{{ .Params.title }}</div>-->
 
                     <img src="{{.Params.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
                     <div class="hover-overlay">
