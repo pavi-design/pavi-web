@@ -15,17 +15,7 @@ sections:
   templates:
   - post
 - type: heading
-  label: Data
-- type: directory
-  path: exampleSite/data
-  label: Homepage
-  create: all
-  match: "**/*"
-- type: directory
-  path: exampleSite/i18n
-  label: i18n
-  create: documents
-  match: "**/*"
+  label: Portfolio
 - type: heading
   label: Configuration
 - type: directory
@@ -34,6 +24,11 @@ sections:
   create: all
   match: "*.toml"
   new_doc_ext: toml
+- type: directory
+  path: exampleSite/data
+  label: Homepage
+  create: all
+  match: "**/*"
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
