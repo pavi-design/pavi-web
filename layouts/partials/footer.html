@@ -170,13 +170,8 @@
       }
     };
 
-    $(document).ready(function () {
-      return window.signature.initialize();
-    });
-
-    $(window).load(function () {
-      return window.signature.animate();
-    });
+    window.signature.initialize();
+    setTimeout(() => window.signature.animate(), 10);
   })();
 </script>
 
