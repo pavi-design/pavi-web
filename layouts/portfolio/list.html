@@ -11,6 +11,7 @@
                  data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
                 <div class="position-relative rounded hover-wrapper">
                     <img src="{{.Params.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+                    {{ Params.categories }}
                     <div class="hover-overlay">
                         <div class="hover-content">
                             <a class="btn btn-light btn-sm" href="{{ .Permalink }}">view project</a>
