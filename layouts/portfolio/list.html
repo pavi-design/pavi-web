@@ -11,7 +11,9 @@
                  data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
                 <div class="position-relative rounded hover-wrapper">
 
-                    <div>{{ .PublishDate.Format "Jan 02, 2006" }}</div>
+                    <!-- <div>{{ .PublishDate.Format "Jan 02, 2006" }}</div>-->
+                    <div>{{ .title }}</div>
+
                     <img src="{{.Params.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
                     <div class="hover-overlay">
                         <div class="hover-content">
