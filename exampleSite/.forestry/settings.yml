@@ -17,9 +17,8 @@ sections:
 - type: heading
   label: Portfolio
 - type: document
-  path: exampleSite/content/portfolio/**
+  path: exampleSite/content/portfolio/**/*
   label: Portfolio
-  match: "**/*"
 - type: heading
   label: Configuration
 - type: directory
