@@ -917,3 +917,7 @@ blockquote {
 .social-icons i:hover {
     color: white !important;
 }
+
+.navbar-toggler {
+    margin-left: auto;
+}
