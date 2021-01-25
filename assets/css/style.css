@@ -915,5 +915,9 @@ blockquote {
 
 .social-icons i {
     font-size: 20px;
-    color: #999 !important;
+    color: #999;
+}
+
+.social-icons i:hover {
+    color: white !important;
 }
