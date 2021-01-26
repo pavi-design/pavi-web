@@ -1,10 +1,10 @@
 ---
 title: Designing and facilitating a successful virtual workshop
 date: 2021-01-25T20:00:00-05:00
-image: ''
+image: "/images/untitled.png"
 description: This is meta description.
 author: Pavi
-image_webp: "/images/untitled.png"
+image_webp: ''
 
 ---
 I recently had the opportunity of facilitating a virtual design workshop for the [SheHacks Hackathon](https://shehacks.ca/). Running virtual design workshops are distinctively different from in-person. There’s a lack of insight into energy levels, what participants may be struggling with, and visual cues.
