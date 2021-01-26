@@ -1,6 +1,6 @@
 ---
 title: Designing and learning from a successful virtual workshop - a SheHacks experience
-date: 2019-05-12T12:14:34.000+06:00
+date: 2021-01-25T20:00:00-05:00
 image: ''
 description: This is meta description.
 author: Pavi
