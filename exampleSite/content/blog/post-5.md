@@ -8,7 +8,7 @@ author: Pavi
 ---
 I recently had the opportunity of facilitating a virtual design workshop for the [SheHacks Hackathon](https://shehacks.ca/). Running virtual design workshops are distinctively different from in-person. There’s a lack of insight into energy levels, what participants may be struggling with, and visual cues.
 
-![](https://cdn-images-1.medium.com/max/1600/1*gWunGSQZxfROumz4IowQ4g.png "Pavi facilitating the virtual workshop for SheHacks")
+![Pavi facilitating at SheHacks](/images/untitled.png "Pavi facilitating at SheHacks")
 
 #### The needs and constraints:
 
