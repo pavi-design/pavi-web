@@ -1,5 +1,5 @@
 ---
-title: Designing and learning from a successful virtual workshop - a SheHacks experience
+title: Designing and facilitating a successful virtual workshop
 date: 2021-01-25T20:00:00-05:00
 image: ''
 description: This is meta description.
