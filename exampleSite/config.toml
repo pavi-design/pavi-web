@@ -4,10 +4,6 @@ summaryLength = "10"
 theme = "kross-hugo"
 title = "Pavi"
 [[menu.main]]
-URL = "talks"
-name = "Talks"
-weight = "1"
-[[menu.main]]
 URL = "about"
 name = "About"
 weight = 1
@@ -19,6 +15,10 @@ weight = 2
 URL = "portfolio"
 name = "Portfolio"
 weight = 3
+[[menu.main]]
+URL = "talks"
+name = "Talks"
+weight = "1"
 [params]
 address = "Toronto, Ontario"
 author = "Pavitra Logeswaran"
