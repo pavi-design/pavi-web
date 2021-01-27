@@ -8,7 +8,7 @@ about:
 
     When I’m not designing, you can find me mentoring designers trying to break into the industry, dancing and experimenting with vegan recipes.
   button:
-    enable: true
+    enable: false
     label: know more
     URL: about
 skill:
