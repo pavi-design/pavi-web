@@ -18,7 +18,7 @@ weight = 3
 [[menu.main]]
 URL = "talks"
 name = "Talks"
-weight = "1"
+weight = "4"
 [params]
 address = "Toronto, Ontario"
 author = "Pavitra Logeswaran"
