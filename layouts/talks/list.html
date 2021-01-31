@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<!-- portfolio -->
+<section class="section">
+    <div class="container">
+        <div class="row shuffle-wrapper">
+            {{ range .Data.Pages }}
+            <div class="col-lg-4 col-6 mb-4 shuffle-item"
+                 data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
+                <div>{{ .Params.title }}</div>
+                <div class="position-relative rounded hover-wrapper">
+
+                    <!-- <div>{{ .PublishDate.Format "Jan 02, 2006" }}</div>-->
+                    <!-- <div>{{ .Params.title }}</div>-->
+
+                    <img src="{{.Params.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+                    <div class="hover-overlay">
+                        <div class="hover-content">
+                            <a class="btn btn-light btn-sm" href="{{ .Permalink }}">view project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+<!-- /portfolio -->
+
+<!--<section class="section bg-light">-->
+<!--  <div class="container">-->
+<!--    {{ partial "client-slider.html" . }}-->
+<!--  </div>-->
+<!--</section>-->
+
+{{ end }}
