@@ -909,12 +909,12 @@ blockquote {
     margin-right: 3rem;
 }
 
-.social-icons i {
+.footer-stuff i {
     font-size: 25px;
     color: #999;
 }
 
-.social-icons i:hover {
+.footer-stuff i:hover {
     color: white !important;
 }
 

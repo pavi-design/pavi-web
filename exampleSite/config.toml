@@ -58,10 +58,10 @@ enable = false
 preloader = "images/preloader.gif"
 [[params.social]]
 URL = "https://www.instagram.com/pavi.design"
-icon = "ti-instagram"
+icon = "ti-inst"
 [[params.social]]
 URL = "https://dribbble.com/Pavitra"
-icon = "ti-dribbble"
+icon = "ti-drib"
 [[params.social]]
 URL = "https://twitter.com/pavi_design"
-icon = "ti-twitter-alt"
+icon = "ti-twi"
