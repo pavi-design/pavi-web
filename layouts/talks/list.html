@@ -6,7 +6,7 @@
 <section class="section">
     <div class="container">
         <div class="row shuffle-wrapper">
-<!--            {{ range .Data.Pages }}-->
+            {{ range .Data.Pages }}
             <div class="col-lg-4 col-6 mb-4 shuffle-item"
                  data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
                 <div>{{ .Params.title }}</div>
