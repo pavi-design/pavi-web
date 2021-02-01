@@ -3,7 +3,12 @@
 PROJECT: Project Name
 VERSION: Versoin Number
 -------------------------------------------------------------------*/
-@import "https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700";
+
+/*orig*/
+/*@import "https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700";*/
+
+@import "https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400 i,700";
+
 
 @font-face {
     font-family: bwnistaint-xbd;
@@ -14,7 +19,8 @@ VERSION: Versoin Number
 
 body {
     line-height: 1.2;
-    font-family: roboto, sans-serif;
+    /*font-family: roboto, sans-serif; orig */
+    font-family: Gentium Book Basic, serif;
     -webkit-font-smoothing: antialiased;
     font-size: 15px;
     color: #4c4c4c
