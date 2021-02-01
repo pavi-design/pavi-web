@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "This is meta description."
+description: "Pavi's About Page."
 author_image : "images/pavi/face.jpg"
 draft: false
 ---
