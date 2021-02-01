@@ -757,7 +757,8 @@ blockquote {
 }
 
 .page-title-alt {
-    padding: 350px 0 70px
+    padding: 150px 0 60px;
+    /*padding: 350px 0 70px orig */
 }
 
 .border-thick {
@@ -765,7 +766,7 @@ blockquote {
 }
 
 .drag-lg-top {
-    margin-top: -230px
+    margin-top: -30px
 }
 
 @media (max-width: 991px) {
