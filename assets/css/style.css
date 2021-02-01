@@ -23,7 +23,9 @@ body {
     font-family: Gentium Book Basic, serif;
     -webkit-font-smoothing: antialiased;
     font-size: 15px;
-    color: #4c4c4c
+    color: #4c4c4c;
+    height: 100%;
+    min-height: 100%;
 }
 
 p {
@@ -707,7 +709,10 @@ textarea.form-control {
 }
 
 .footer-section {
-    padding-top: 200px
+    clear: both;
+    position: relative;
+    height: 125px;
+    margin-top: -125px;
 }
 
 .section-on-footer {
