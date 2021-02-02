@@ -1,7 +1,7 @@
 ---
 title: Capital One Self-service
 date: 2019-03-04T00:00:00-05:00
-image: "/images/newcontact.png"
+image: "/images/macbook-pro-light-background.png"
 client: Capital One
 project_url: https://www.capitalone.ca/contact-us
 categories: []
