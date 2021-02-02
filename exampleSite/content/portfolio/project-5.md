@@ -8,7 +8,7 @@ categories: []
 description: This is meta description.
 
 ---
-#### Context
+### Context
 
 Kaur Space was created to show the world that it is possible to #WorkDifferently by unlearning and relearning how to live an integrated life filled with work wellness and impact. The current challenges the company was facing were:
 
@@ -16,7 +16,7 @@ Kaur Space was created to show the world that it is possible to #WorkDifferently
 * The growth rate for the past 5 months has been -0.82% and 1.2% conversion rate.
 * The solution was created without data and customer validation of the problem.
 
-#### Problem
+### Problem
 
 People are feeling overworked, tired, and lost in the world of work. They have experienced burnout or currently in the storm of burnout and don’t know what recovery looks like or how to start building a work life that works for them.
 
