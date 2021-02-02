@@ -40,4 +40,4 @@ This was tested with users for ease of use and feedback. We took the feedback fr
 
 #### Next Steps
 
-Another problem with this page was the content itself, it wasn’t very helpful and sometimes difficult to understand. It required a rewrite. The future state is to have a support page that will ultimately replace the contact us and faq. The information will be crowd-sourced internally,and we’re working with copywriters to simplify the language and replace the financial lingo.
+Another problem with this page was the content itself, it wasn’t very helpful and sometimes difficult to understand. It required a rewrite. The future state is to have a support page that will ultimately replace the contact us and faq. The information will be crowd-sourced internally, and we’re working with copywriters to simplify the language and replace the financial lingo.
