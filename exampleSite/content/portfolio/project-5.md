@@ -1,30 +1,39 @@
 ---
-title: "Artwork Design"
-date: 2019-05-12T12:14:34+06:00
-image: "images/portfolio/item-8.png"
-client: "John Doe"
-project_url : "https://themefisher.com/"
+title: Kaur Space
+date: 2019-08-30T10:00:34-04:00
+image: "/images/macbook-pro-dark-background.png"
+client: John Doe
+project_url: https://kaurspace.com/
 categories: []
-description: "This is meta description."
-draft: false
+description: This is meta description.
+
 ---
+#### Context
 
-#### Project Requirements
+Kaur Space was created to show the world that it is possible to #WorkDifferently by unlearning and relearning how to live an integrated life filled with work wellness and impact. The current challenges the company was facing were:
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+* They have a product but the direction they are moving towards ( educational content + vision around #WorkingDifferently) does not align with the product being offered.
+* The growth rate for the past 5 months has been -0.82% and 1.2% conversion rate.
+* The solution was created without data and customer validation of the problem.
 
+#### Problem
 
-#### Project Details
+People are feeling overworked, tired, and lost in the world of work. They have experienced burnout or currently in the storm of burnout and don’t know what recovery looks like or how to start building a work life that works for them.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+To address the challenges and problem statement, we met with the stakeholders and held a Design Sprint to identify the scope and needs of the customers.
+
+![](/images/dscf7390.jpeg)
+
+Together we determined the scope of the project by coming up with an MVP which comprised of the main actions the user can take either as a driver or hiker. I was responsible for the visual design of the app, illustration and layout.
+
+![](/images/dscf7736.jpeg)
+
+I was responsible for designing the layout using the brand guidelines, and built out the working prototype on Invision for user testing. We implemented user feedback along with the company stakeholder feedback into the final designs.
+
+![](/images/brand1.png)
+
+![](/images/brand2.png)
+
+![](/images/prototype.png)
+
+Experience the [complete prototype](https://projects.invisionapp.com/share/SZSUTY9Y85H#/screens) on Figma.
