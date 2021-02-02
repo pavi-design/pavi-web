@@ -2,7 +2,7 @@
 title: Kaur Space
 date: 2019-08-30T10:00:34-04:00
 image: "/images/macbook-pro-dark-background.png"
-client: John Doe
+client: Kim Kirton
 project_url: https://kaurspace.com/
 categories: []
 description: This is meta description.
