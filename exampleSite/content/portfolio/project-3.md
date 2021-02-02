@@ -14,8 +14,6 @@ Customers were finding it difficult to navigate and find the answers they were l
 
 Contact Us page is our first line of defense prior to a customer calling in. It’s a place where customers can self-serve and get answers to their questions quickly rather than waiting on a call.
 
-![Capital One contact us page](/images/newcontact.png "Capital One contact us page")
-
 #### What is the goal?
 
 * Encourage self-servicing to help reduce call volume.
