@@ -1,6 +1,6 @@
 ---
 title: Takahashi Legend Care
-date: 2019-05-12T12:14:34.000+06:00
+date: 2019-04-30T00:00:00-04:00
 image: "/images/ltrandcard.png"
 client: Annu
 project_url: https://www.tlcare.com.my/
