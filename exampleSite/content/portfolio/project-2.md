@@ -1,30 +1,25 @@
 ---
-title: "Artwork Design"
-date: 2019-05-12T12:14:34+06:00
-image: "images/portfolio/item-2.png"
-client: "John Doe"
-project_url : "https://themefisher.com/"
+title: Takahashi Legend Care
+date: 2019-05-12T12:14:34.000+06:00
+image: images/portfolio/item-2.png
+client: Annu
+project_url: https://www.tlcare.com.my/
 categories: []
-description: "This is meta description."
-draft: false
+description: This is meta description.
+
 ---
-
-#### Project Requirements
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
-
-
 #### Project Details
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+Developing a compelling brand and online experience for a purpose-built assisted living residential home for the elderly.
+
+Working in collaboration with Takahashi Legend Care, I designed the brand identity, logo and website for the home. The purpose was to promote and introduce the new home to residents. As a result, the created tools reflect the caring approach of Takahashi Legend Care while engaging new residents to enroll.
+
+![](/images/logodesign.png)
+
+![](/images/colours_and_text.png)
+
+I helped create the Takahashi Legend Care identity – starting with a brand strategy that reflected the caring and supportive environment in the home. I used imagery and colours to launch a new identity that helps new residents feel that they’re in their own homes.
+
+![](/images/ltrandcard.png)
+
+![](/images/website.png)
