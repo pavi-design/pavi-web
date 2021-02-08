@@ -65,3 +65,7 @@ icon = "ti-drib"
 [[params.social]]
 URL = "https://twitter.com/pavi_design"
 icon = "ti-twi"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
