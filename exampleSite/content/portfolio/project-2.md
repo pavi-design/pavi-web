@@ -22,4 +22,3 @@ I helped create the Takahashi Legend Care identity – starting with a brand str
 ![](/images/ltrandcard.png)
 <div style="text-align: center"><img src="/images/website.png"/></div>
 
-![](/images/website.png)
