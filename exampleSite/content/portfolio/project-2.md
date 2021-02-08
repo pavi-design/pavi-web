@@ -14,6 +14,8 @@ Developing a compelling brand and online experience for a purpose-built assisted
 
 Working in collaboration with Takahashi Legend Care, I designed the brand identity, logo and website for the home. The purpose was to promote and introduce the new home to residents. As a result, the created tools reflect the caring approach of Takahashi Legend Care while engaging new residents to enroll.
 
+<div style="text-align: center"><img src="/images/logodesign.png"/></div>
+
 ![](/images/logodesign.png)
 
 ![](/images/colours_and_text.png)
