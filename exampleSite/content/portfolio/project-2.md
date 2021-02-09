@@ -27,7 +27,7 @@ height: auto;
 }
 </style>
 <div>
-<img src= "/images/ltrandcard.png">
+<img src= "/images/ltrandcard.png"/>
 </div>
 <div style="text-align: center"><img src="/images/website.png"/></div>
 
