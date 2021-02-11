@@ -20,14 +20,4 @@ Working in collaboration with Takahashi Legend Care, I designed the brand identi
 
 I helped create the Takahashi Legend Care identity – starting with a brand strategy that reflected the caring and supportive environment in the home. I used imagery and colours to launch a new identity that helps new residents feel that they’re in their own homes.
 
-<div>
-<img src= "/images/ltrandcard.png"/>
-</div>
-<style>
-img {
-max-width: 100%;
-height: auto;
-}
-</style>
-
-<div style="text-align: center"><img src="/images/website.png"/></div>
+<div style="text-align: center"><img src="/images/ltrandcard-1.png"/></div>
