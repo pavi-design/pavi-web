@@ -1,6 +1,16 @@
 {{ define "main" }}
 
-  {{ partial "page-title.html" . }}
+ <!-- page title -->
+<section class="page-title-alt bg-primary position-relative overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-white font-tertiary text-center">{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
 
   <section class="section">
     <div class="container">
