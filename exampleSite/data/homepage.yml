@@ -136,3 +136,6 @@ clients_logo_slider:
 blog:
   enable: true
   title: Blogs
+talks:
+  enable: true
+  title: Talks
