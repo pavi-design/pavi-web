@@ -280,8 +280,9 @@
   <!-- /blog -->
   {{ end }}
 
-  <!-- page title -->
-<section class="page-title-alt position-relative overflow-hidden">
+  {{ if site.Data.homepage.talks.enable }}
+  <!-- talks -->
+<section class="section">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -293,7 +294,7 @@
     </div>
   </div>
 </section>
-<!-- /page title -->
+<!-- /talks -->
 
 
 {{ end }}
