@@ -216,31 +216,6 @@
   <!-- /portfolio -->
   {{ end }}
 
-<!-- page title -->
-<section class="page-title-alt position-relative overflow-hidden">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="text-dark font-tertiary text-center">Talks</h1>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /page title -->
-
-<!-- talk -->
-<section class="section pt-5">
-<div class="container">
-  <div class="row">
-    <div class="col-md-8">
-      {{ .Content }}
-    </div>
-  </div>
-</div>
-</section>
-<!-- /talk -->
-
-
 
   {{ if site.Data.homepage.testimonial.enable }}
   {{ with site.Data.homepage.testimonial }}
@@ -304,6 +279,33 @@
   </section>
   <!-- /blog -->
   {{ end }}
+
+  <!-- page title -->
+<section class="page-title-alt position-relative overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-dark font-tertiary text-center">Talks</h1>
+      </div>
+      {{ range first 3 (where .Site.RegularPages "Section" "talks")}}
+        {{ .Render "list" }}
+        {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- talk -->
+<section class="section pt-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+</section>
+<!-- /talk -->
 
 
 {{ end }}
