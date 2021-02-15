@@ -286,10 +286,10 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1 class="text-dark font-tertiary text-center">Talks</h1>
+        <h2 class="text-dark font-tertiary text-center">Talks</h2>
       </div>
       {{ range first 4 (where .Site.RegularPages "Section" "talks")}}
-        {{ .Render "list" }}
+        {{ .Render "talks" }}
         {{ end }}
     </div>
   </div>
