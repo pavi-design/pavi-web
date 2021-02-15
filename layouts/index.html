@@ -192,7 +192,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2 class="section-title">{{ site.Data.homepage.portfolio.title | markdownify }}</h2>
+          <h1 class="section-title">{{ site.Data.homepage.portfolio.title | markdownify }}</h1>
         </div>
       </div>
       <div class="row shuffle-wrapper">
@@ -269,7 +269,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2 class="section-title">{{site.Data.homepage.blog.title | markdownify }}</h2>
+          <h1 class="section-title">{{site.Data.homepage.blog.title | markdownify }}</h1>
         </div>
         {{ range first 3 (where .Site.RegularPages "Section" "blog")}}
         {{ .Render "post" }}
@@ -286,7 +286,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="text-dark font-tertiary text-center">Talks</h2>
+        <h1 class="text-dark font-tertiary text-center">Talks</h1>
       </div>
     </div>
   </div>
