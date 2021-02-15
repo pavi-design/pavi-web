@@ -40,7 +40,7 @@ h4,
 h5,
 h6 {
     color: #32383e;
-    font-family: Gentium Book Basic, serif;
+    font-family: Gentium Book Basic, sans-serif;
     line-height: 1.2
 }
 
@@ -92,7 +92,7 @@ h6,
 
 .btn {
     font-size: 22px;
-    font-family: Gentium Book Basic, serif;
+    font-family: Gentium Book Basic, sans-serif;
     text-transform: capitalize;
     padding: 16px 44px;
     border-radius: 5px;
