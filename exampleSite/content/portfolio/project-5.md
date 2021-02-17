@@ -22,7 +22,7 @@ People are feeling overworked, tired, and lost in the world of work. They have e
 
 To address the challenges and problem statement, we met with the stakeholders and held a Design Sprint to identify the scope and needs of the customers.
 
-<div style="text-align: center; max-width: 10%"><img src="/images/dscf7390.jpeg"/></div>
+<div style="text-align: center"><img src="/images/dscf7390.jpeg"/></div>
 
 Together we determined the scope of the project by coming up with an MVP which comprised of the main actions the user can take either as a driver or hiker. I was responsible for the visual design of the app, illustration and layout.
 
