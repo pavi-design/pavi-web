@@ -26,15 +26,15 @@ We want to help customers and pre-customers answer their questions and solve the
 
 We led a design workshop to help us generate ideas collectively and quickly, as well as paper prototype.
 
-![Design workshop](/images/c1-1.png "Design workshop")
+<div style="text-align: center"><img src="/images/c1-1.png"/></div>
 
-![paper prototypes](/images/c1-2.png "paper prototypes")
+<div style="text-align: center"><img src="/images/c1-2.png"/></div>
 
 This was tested with users for ease of use and feedback. We took the feedback from users and stakeholders, iterated and incorporated it into our final design to simplify it further. We were able to test it again, and customers found it easier to navigate and find information. The [responsive view of the contact us page](https://bit.ly/39Gepwy) was also taken into consideration and tested with mobile users.
 
-![user testing](/images/c1-3.png "user testing")
+<div style="text-align: center"><img src="/images/c1-3.png"/></div>
 
-![testing second iteration](/images/c1-4.png "testing second iteration")
+<div style="text-align: center"><img src="/images/c1-4.png"/></div>
 
 #### Next Steps
 
