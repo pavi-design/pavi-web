@@ -27,7 +27,7 @@ I first started by thinking about the value for students from this workshop. Ref
 
 When I was looking for approaches to solve whiteboard problems during early interviews, I came across [Solving product design exercises](https://productdesigninterview.com/) by Artiom Dashinsky. It helped me frame and organize my thinking for solving whiteboard problems quickly. I used this method to solve problems for my interviews, including Shopify. The most valuable takeaway from this book was the canvas. The canvas takes you through the product thinking step-by-step.
 
-![Designing and facilitating a successful virtual workshop](/images/canvas.png "Designing and facilitating a successful virtual workshop")
+<div style="text-align: center"><img src="/images/canvas.png" style="height: 500px"/></div>
 
 I used a problem from the book as a sample for myself and the participants to work through together. To make the workshop interactive and beneficial, I opted to use [Figma](https://www.figma.com/), considering it’s an industry tool used by product designers and is available for free.
 
